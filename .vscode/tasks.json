@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++.exe アクティブなファイルのビルド",
+			"label": "cppbuild",
 			"command": "C:\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",
@@ -11,7 +11,7 @@
 				"-D",
 				"_DEBUG",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\a.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
